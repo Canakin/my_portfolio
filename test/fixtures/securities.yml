@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  value: 1
+  beg_value: 1
+  description: MyText
+  portfolio: one
+  market: one
+
+two:
+  type: 
+  value: 1
+  beg_value: 1
+  description: MyText
+  portfolio: two
+  market: two

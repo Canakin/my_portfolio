@@ -1,0 +1,12 @@
+<h2><%= @forum.name %></h2>
+<% @forum.comment.each do |comment| %>
+<ol>
+  <li><%= comment.content %></li>
+  <li><%= comment.user.email %></li>
+  <li><%= link_to 'See full content', forum_comment_path(@forum) %></li>
+</ol>
+<% end %>
+
+<div>
+  <%= link_to "Create a new comment", new_forum_comment_path(@forum) %>
+</div>

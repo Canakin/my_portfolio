@@ -1,0 +1,4 @@
+<% @markets.each do |market| %>
+<%= market.description %>
+<%= market.ytd_return.round(2) %>
+<% end  %>

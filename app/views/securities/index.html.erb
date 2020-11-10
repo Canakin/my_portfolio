@@ -1,0 +1,7 @@
+<div>
+  <h2>Security</h2>
+  <% @securities.each do |security| %>
+  <p><strong>Description:</strong> <%= security.description %></p>
+  <p><strong>Security Type: </strong><%= security.security_type.capitalize %></p>
+  <% end %>
+</div>
